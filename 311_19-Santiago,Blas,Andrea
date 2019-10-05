@@ -1,0 +1,107 @@
+Como se divide lógicamente un disco duro
+La estructura lógica de un disco duro está formado por:
+   * Sector de arranque.
+   *Espacio particionado.
+   * Espacio sin particionar.
+-	Sector de arranque: Es el primer sector de un disco duro en él se almacena la tabla de particiones y un programa pequeño llamado Master Boot. Este programa se encarga de leer la tabla de particiones y ceder el control al sector de arranque de la partición activa, en caso de que no existiese partición activa mostraría un mensaje de error.
+-	Espacio particionado: Es el espacio del disco que ha sido asignado a alguna partición.
+-	Espacio sin particionar: Es el espacio del disco que no ha sido asignado a ninguna partición.
+
+Tipos de discos duro y velocidades de transferencia
+Discos duros SATA
+Son los discos utilizados en la actualidad. Estos discos no van conectados a zócalos IDE, por lo que no tienen las limitaciones inherentes a dicho sistema (es decir, dos dispositivos por conector, configurados como Master y Slave o como Cable Select), sino que van conectados directamente a un puerto SATA (Serial ATA), cada disco de forma independiente, determinándose el disco de inicio del sistema en la propia BIOS. El número de conectores SATA en una placa base depende tan solo de la capacidad del chipset que se monte, siendo lo más habitual que cuenten con 4 o 6 puertos SATA, aunque existen placas con un número mayor.
+SATA no utiliza las fajas de 80 hilos, sino cables planos de 7 hilos, mucho más estrechos, que permiten entre otras cosas una mejor refrigeración del sistema y una mayor longitud en los cables. En cuanto a las tomas de alimentación también son diferentes, aunque con los mismos voltajes que los empleados en los discos IDE, si bien están en un orden diferente. Hay algunos discos SATA que llevan ambos tipos de tomas de alimentación como por ejemplo algunos modelos de Western Digital o de Samsung, aunque no es lo más habitual.
+En cuanto a los tipos de SATA existentes, son los siguientes:
+•	SATA o SATA 1, con una velocidad de transmisión de 150MB/s, llamado también SATA 1.5Gb. Prácticamente no se utiliza, a pesar de su reciente aparición.
+•	SATA 2, con una velocidad de transmisión de 300MB/s, conocido también como SATA 3Gb. Es el tipo más utilizado, y suelen tener un jumper para poder utilizarlos como SATA 1.
+•	El tipo SATA 6Gb, con una velocidad de transmisión de 600MBs .
+Discos duros SAS
+Los discos duros SAS son un dispositivo electromecánico que se encarga de almacenar y leer grandes volúmenes de información a altas velocidades por medio de pequeños electroimanes  (también llamadas cabezas de lectura y escritura), sobre un disco recubierto de limadura magnética. Los discos vienen montados sobre un eje que gira a altas velocidades. El interior del dispositivo está totalmente libre de aire y  de polvo, para evitar choques entre partículas y por ende, pérdida de datos, el disco permanece girando todo el tiempo que se encuentra encendido. Será el sucesor del estándar de discos duros con interfaz paralela SCSI.
+RPM SAS: Significa “Revolutions per Minute” ó vueltas por minuto. Este valor determina la velocidad a la que los discos internos giran cada minuto. Su unidad de medida es: revoluciones por minuto (RPM). Este dato puede ser 7,200 RPM, 10,000 RPM hasta 15,000 RPM.
+Velocidad de transferencia: Indica la velocidad de transferencia de datos máxima, expresada en Gb/s (Gigabits/segundo). Un disco duro SAS tiene dentro de sus características lo siguiente: Marca HP®, 600 GB, SFF 2.5 Inch,  Hot Plug*, 6G*, SAS, 10K RPM.     * Este dato indica la velocidad de transferencia de datos, en este caso 6 Gigabits/segundo.
+
+Discos duros SSD
+Los Discos Duro SSD son hasta diez veces más rápidos que los discos duros convencionales, tienen menos desgaste debido a que los discos SSD no tienen partes mecánicas, son sólidos. Los discos duros SSD también desprenden menos calor al alcanzar menos temperatura y no hacen absolutamente ningún ruido.
+Cuando un servidor lleva discos SSD tiene un acceso mucho más rápido a los datos, por lo que si el servidor es web, los tiempos de respuesta mejoraran considerablemente en las consultas a la base de datos que no estén cargadas en la memoria RAM.
+La transmisión de datos en una unidad SSD es cinco veces mayor, obteniendo velocidades de 250Mb/s para lectura y 230Mb/s para escritura
+
+Tipos de computadoras
+•	Supercomputadoras
+Las supercomputadoras son un tipo de equipamiento informático diseñado con el propósito de procesar rápidamente enormes cantidades de información. Con el paso de los años la potencia de los procesadores que equipan a estas computadoras ha ido incrementándose hasta valores increíbles, y existe una feroz competencia por sus desarrolladores y fabricantes para que sus supercomputadora sea la más potente disponible en una determinada época. Las supercomputadoras pueden costar cientos de millones miles de dólares y consumir la energía suficiente como para abastecer decenas de casas.
+Otra característica de las supercomputadoras es la enorme cantidad de calor que provocan, de esta manera los fabricantes de estos equipamientos deben preocuparse por el sistema de refrigeración.
+•	Mainframes
+Se destinan a manipular cantidades inmensas de información de entrada, salida y almacenamiento. Los mainframes generalmente trabajan con terminales esparcidas en distintas áreas físicas y donde todo el procesamiento es realizado en este mainframe. Los mainframes actuales pueden costar millones de dólares y suelen ocupar salas enteras equipadas con infraestructura especial.
+
+•	Las Minicomputadoras
+Las minicomputadoras son un tipo de dispositivo que se encuentra en un nicho entre los mainframes y las microcomputadoras. Las minicomputadoras son un tercer tipo de computadora capaz de manipular mucha más datos de entrada y salida que los microcomputadoras, también llamadas computadoras personales,  aunque algunas minicomputadoras son destinadas a un único usuario, son capaces de controlar centenares de terminales.
+
+•	Las estaciones de trabajo
+A pesar de que en su momento las estaciones de trabajo o Workstation, como también se las conoce, eran equipos que se utilizaban para tareas que requerían de altos niveles de potencia y estabilidad de proceso, lo cierto es que con el paso del tiempo, las computadoras personales, menos costosas, han alcanzado tal nivel de performance que llegaron a reemplazar a las Workstations en muchas de las tareas que se realizaban con este tipo de computadora.
+Esto produjo que las ventas de estaciones de trabajo decayeran paulatinamente, y comenzaran a utilizarse generalmente en ámbitos como el de la investigación y el desarrollo, es decir ámbitos bien especializados, en donde toda la potencia de este tipo de hardware se pudiera aprovechar por completo.
+•	Las computadoras personales
+Las computadoras personales, también llamadas microcomputadoras o micros es un tipo de computadora pequeña, pero que en la actualidad ofrece gran capacidad de procesamiento y alta performance. El término PC se acuño en el año 1981, cuando IBM lanzó al mercado la  “Personal Computer”, de donde se deriva la abreviatura PC.
+Como el proyecto de la IBM PC alcanzó éxito y fama, fue clonado y producido en serie por infinidad de fabricantes, conservando la arquitectura de proceso original, la cual es utilizada hasta el día de hoy.
+•	Las computadoras de escritorio
+Las computadoras personales pueden ser encontradas en los más diversos formatos, pero el tipo de computadora personal más utilizado en la actualidad es la computadora de escritorio, la cual podemos encontrar en todo tipo de escenario y realizando las más variadas tareas.
+Otro tipo de computadora personal, pero con diferente arquitectura, son las producidas por Apple, productos que han alcanzado fama mundial debido a su estabilidad y calidad de construcción.
+Otro tipo de computadora personal, también de escritorio, son las llamadas “All-inOne”, un dispositivo que reúne características de diferentes tecnologías, como la posibilidad de usar una pantalla táctil.
+
+•	Las computadoras portátiles
+Otro tipo de computadora personal es la llamada notebook, también llamada laptop, la cual básicamente es una computadora con rendimiento y capacidad similares a una computadora de escritorio, pero en un formato que puede ser transportable, debido a que utilizan un monitor del tipo LCD o LED, además de componentes mucho más pequeños y eficientes en términos de uso de energía, un punto más que necesario ya que la principal fuente de alimentación de las computadoras portátiles es una batería.
+En este mismo grupo también se encuentran las llamadas Netbooks, que aunque han ido desapareciendo del mercado, todavía se comercializan. Este tipo de computadora es diferente a la notebook, ya que aunque también las netbook son portátiles, la diferencia de performance y tamaño con la notebook es notoria. Esto se debe fundamentalmente a que la Netbook fue diseñada como un tipo de computadora portable de bajo costo.
+
+En que se divide  el procesador en una computadora?
+-	Unidad de control
+Es la parte con que se desactiva o activa los componentes del procesador. Con este se logra ejecutar y a la vez interpretar todas las instrucciones que están guardadas en la memoria principal.
+-	Registros
+Son zonas temporales de almacenamiento que se utilizan durante la ejecución de las instrucciones.
+-	Unidad aritmética y lógica
+Esta parte es la que tiene el rol de ejecutar todas las operaciones de transformación de datos, como son las operaciones matemáticas.
+-	Buses de entradas y salidas
+Se trata de un sistema digital encargado de la transferencia de información de un componente a otro de un ordenador, o crea la conexión entre dos o mas computadores.
+-	Encapsulado
+Se encuentra cubriendo la oblea de silicio, el cual brinda una mayor protección y consistencia, impidiendo así cualquier deterioro.
+-	Chipset
+Se trata de una serie de chips que se encargan de mantener controlada las funciones del equipo.
+-	Motor de ejecución
+Considerada como parte importante del procesador, el cual concentra las unidades de FPU y las de ALU.
+-	Unidad FPU
+Se designa por sus siglas  la unidad de punto flotante, la cual actúa como coprocesador matemático, el cual se encarga de las sumas y multiplicaciones.
+-	Unidad ALU
+Refiere a la unidad aritmético lógica, la cual se encarga de todas las operaciones que se efectúan con números enteros.
+-	Zócalo
+Refiere al sitio donde es colocado el procesador, el cual crea una conexión directa con el resto del equipo.
+-	Memoria cache
+Se refiere a la zona donde los datos de mayor frecuencia del computador son almacenados.
+-	Puertos
+Se trata del medio por donde se comunica el procesador al mundo externo. Este se considera como un medio análogo a la línea de teléfono. El procesador presenta diversos números de puerto a través de los cuales se conecta cualquier circuito de la computadora, estos números son usados por el puerto como si fuese un número de teléfono para así llamar a aquellos circuitos especiales.
+-	Pepelines
+Son unidades de cálculo especializadas.
+-	Fetch
+Se encarga de enviar todas las instrucciones al decodificador.
+-	Prefetch
+Refiere a una pre-lectura de la instrucción que se efectúa desde la memoria principal.
+-	Decodificador
+Este se encarga de evaluar que tipo de instrucción es y las tareas que se deben de realizar.
+-	Controlador de memoria
+Se trata de un elemento localizado en la parte interna del procesador que controla la comunicación entre la memoria RAM y el micro.
+-	Memoria cache
+Se trata de una memoria que trabaja a gran velocidad, con la cual se tiene acceso a los datos que serán usados en ciertas operaciones sin requerir ayuda de la memoria RAM. Este proceso de obtención de datos se realiza en un tiempo muy corto.
+-	Coprocesador matemático
+También llamado como Unidad de coma flotante o FPU. Esta parte del procesador es la que realiza diversos tipos de cálculos matemáticos. Es considerada junto a la memoria, a la unidad de control, al bus de datos y a los registros como la parte lógica del procesador.
+-	Disipador de calor
+Con este el procesador logra mantenerse a una perfecta temperatura, garantizando un máximo rendimiento. El calor en el procesador se produce por la pérdida de energía que ocurre en el, lo cual se transforma en calor.
+-	Ejecución superescalar
+Es un componente añadido recientemente el cual logra ejecutar varias instrucciones a la vez por ciclo de reloj.
+
+
+
+
+
+
+
+
+
+
+
+
