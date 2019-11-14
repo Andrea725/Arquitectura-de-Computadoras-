@@ -1,0 +1,16 @@
+Definicion de SAS
+SAS son las siglas de Serial Attached SCSI (SCSI son las siglas de Small Computer System Interface, normalmente pronunciado como “scuzzy”) y es una tecnología de transferencia de datos desde y hacia discos duros.
+Aunque SAS hace referencia a la interfaz, también se emplea para describir un tipo de disco duro, normalmente 10K o 15K SAS
+Las velocidades más altas y los mayores niveles de resistencia hacen de SAS una elección lógica para un uso de nivel avanzado y para situaciones donde la velocidad y la fiabilidad son primordiales.
+Los discos duros SAS son de dos tipos principales: 10K y 15K. La K hace referencia a la velocidad giratoria del disco duro, es decir, 10.000 y 15.000 revoluciones por minuto, respectivamente.
+
+Definicion de SATA
+SATA son las siglas de Serial Advanced Technology Attachment y es un tipo de interfaz de disco duro. Aunque SATA es el nombre de la interfaz, normalmente se usa para describir el tipo de disco duro usado, por ejemplo 7.2K SATA.
+El bajo coste y la alta capacidad de los discos SATA dan como resultado un coste por GB muy bajo, que lo hace ideal para usuarios domésticos o para servicios de almacenamiento y backups.
+Actualmente, el tipo de SATA más común es el 7.2K SATA aunque los más antiguos son los 5.4K SATA. La K hace referencia a la velocidad de rotación del disco duro, es decir, 7.200 revoluciones por minuto.
+
+Definicion de SSD
+SSD es el acrónimo de Solid State Drive o lo que es lo mismo unidad de estado sólido. Este término se usa para denominar la nueva generación de dispositivos de almacenamiento para PCs. En estos al contrario que ocurre con los discos duros rígidos se utiliza una memoria formada por semiconductores para almacenar la información parecida a la que puedes encontrar en otros dispositivos como los pinchos USB o las tarjetas de memoria de las cámaras digitales.
+
+Memoria NAND
+Una memoria "NAND" es el chip de memoria que se utiliza en las memorias USB y muchos dispositivos electrónicos como móviles e iPod de Apple. Los chips de memoria NAND los fabrican sólo unos pocos gigantes de la industria como Samsung , Intel e Hynix en diferentes capacidades y niveles de rendimiento.
